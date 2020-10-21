@@ -53,6 +53,26 @@
 	transition: all 400ms ease;
 	}
 	
+	.efeito1 {
+	justify-content:center;
+	align-items:flex-end;
+	border: none;
+	color: #ffffff;
+	opacity: 90%;
+	-webkit-box-shadow: 0px 21px 30px 0px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow:    0px 21px 30px 0px rgba(255, 255, 255, 0.5);
+	box-shadow:         0px 21px 30px 0px rgba(255, 255, 255, 0.5);
+	padding: 30px;
+	margin: 10px;
+	font-size: 70px;
+	line-height: 70px;
+	border-radius: 10px;
+	position: relative;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 400ms ease;
+	}
+	
 	.botao{
 		
 		
@@ -61,9 +81,22 @@
 		
 	}
 	
+	.botao1{
+		
+		
+		margin-top: 1500px;
+		background: #004b6b;
+		
+	}
+	
 	.botao:hover{
 		animation: bounce 1s;
 	}
+	
+	.botao1:hover{
+		animation: bounce 1s;
+	}
+	
 	
 	#font5{
 	display:flex;
